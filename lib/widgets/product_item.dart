@@ -14,6 +14,7 @@ class ProductItem extends StatelessWidget {
         fit: BoxFit.cover,
       ),
       footer: GridTileBar(
+        backgroundColor: Colors.black54,
         title: Text(
           title,
           textAlign: TextAlign.center,

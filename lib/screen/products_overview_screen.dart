@@ -47,7 +47,7 @@ class ProductsOverviewScreen extends StatelessWidget {
       body: GridView.builder(
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
-          childAspectRatio: 3 / 2,
+          childAspectRatio: 1.25,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
         ),

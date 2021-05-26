@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 import '../widgets/products_grid.dart';
 
 class ProductsOverviewScreen extends StatelessWidget {
@@ -8,7 +9,7 @@ class ProductsOverviewScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('MyShop'),
       ),
-      body: new ProductsGrid(),
+      body: ProductsGrid(),
     );
   }
 }
